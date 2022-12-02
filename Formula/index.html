@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Registro</title>
+    <style>
+        @font-face {
+            font-family: Header;
+            src: url("fonts/LEMONMILK-Bold.otf");
+        }
+
+        body{
+            background-image: url("images/background.png");
+            background-size: 100%;
+            background-repeat: no-repeat;
+        }
+
+        #Main{
+            background-color: rgba(0, 0, 0, 0.5);
+            margin: auto;
+            width: 60%;
+        }   
+
+        h1{
+            margin-left: 50px;
+            color: white;
+            font-family: Header;
+        }
+
+        form{
+            margin-left: 100px;
+        }
+
+        label{
+            font-family:sans-serif;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div id="Main">
+        <br>
+        <img src="images/Logo.png" alt="" width="20%" style="display: block; margin-left: auto; margin-right: auto;">
+        <br>
+        <h1><b>Formulario de reserva.</b></h1>
+        <br>
+        <form>
+            <label for=""><b>Nombre:</b></label>
+            <input type="text">
+            <label for=""><b>Apellidos:</b></label>
+            <input type="text">
+            <br><br>
+            <label for=""><b>Telefono:</b></label>
+            <input type="text">
+            <label for=""><b>E-Mail:</b></label>
+            <input type="text">
+            <br><br>
+            <label for=""><b>Numero de noches:</b></label>
+            <input type="text">
+            <br><br>
+            <label for=""><b>Fecha de entrada:</b></label>
+            <select name="dia" id="">
+                <option value="" selected disabled hidden>dia</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+                <option value="13">13</option>
+                <option value="14">14</option>
+                <option value="15">15</option>
+                <option value="16">16</option>
+                <option value="17">17</option>
+                <option value="18">18</option>
+                <option value="19">19</option>
+                <option value="20">20</option>
+                <option value="21">21</option>
+                <option value="22">22</option>
+                <option value="23">23</option>
+                <option value="24">24</option>
+                <option value="25">25</option>
+                <option value="26">26</option>
+                <option value="27">27</option>
+                <option value="28">28</option>
+                <option value="29">29</option>
+                <option value="30">30</option>
+                <option value="31">31</option>
+            </select>
+            <select name="mes" id="">
+                <option value="" selected disabled hidden>mes</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+            </select>
+            <br><br>
+            <label for=""><b>Tipo de habitacion:</b></label>
+            <input type="radio" name="a" id=""> <label for="">Simple</label>
+            <input type="radio" name="a" id=""> <label for="">Doble</label>
+            <input type="radio" name="a" id=""> <label for="">Matrimonio</label>
+            <br><br>
+            <label for=""><b>Comida:</b></label>
+            <br><br>
+            <div style="margin-left: 20px;">
+            <label for="">Desayuno</label><input type="checkbox"><br>
+            <label for="">Almuerzo</label><input type="checkbox"><br>
+            <label for="">Cena</label><input type="checkbox"><br>
+            <label for="">cama supletoria</label><input type="checkbox">
+            </div>
+            <br>
+            <footer>
+                <label for=""><b>Comentario:</b></label>
+                <br><br>
+                <textarea name="" id="" cols="60" rows="5"></textarea>
+                <br><br>
+                <input type="reset" value="Restablecer"> <button>Enviar</button>
+            </footer>
+        </form>
+        <br><br>
+    </div>
+</body>
+</html>
